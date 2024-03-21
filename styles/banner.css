@@ -1,0 +1,53 @@
+.banner {
+  background: var(--bg-2);
+  color: var(--txt-color-2);
+  text-align: center;
+  padding: 0em 0em;
+}
+
+.banner img {
+  max-width: 85vw;
+}
+
+.banner__text {
+  display: block;
+  color: var(--txt-color-2);
+  text-align: left;
+  padding: 0.5em;
+}
+
+.banner__text h5 {
+  font-weight: 600;
+  color: var(--txt-color-2);
+  padding: 0 0.2em;
+}
+
+@media screen and (min-width: 576px) {
+  .banner img {
+    max-width: 30vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner img {
+    max-width: 30vw;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner img {
+    max-width: 30vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner img {
+    max-width: 30vw;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .banner img {
+    max-width: 30vw;
+  }
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenzo Takeda</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Inicio</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Sobre Mim</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Projetos</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Habilidades</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Certificados</a>
+        </li>
+      </ul>
+
+      <p alt="Logo Kenzo" class="logo">
+        &lt;<span>kt</span>&gt;
+      </p>
+
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="banner__text">
+      <p>Oi, eu sou </p>
+      <h5>Kenzo Takeda.</h5>
+      <p>Desenvolvedor Full Stack</p>
+    </div>
+    <img alt="imagem de kenzo" src="img/kenzo-cv.png">
+  </section>
+
+  <section class="sobre">
+    <h2>Sobre mim</h2>
+    <div class="sobre__text">
+      <p>
+        Entusiasta de TI com formação sólida em Desenvolvimento de Sistemas
+        e pós-graduação em Gestão de Projetos. Destaco-me
+        na criação de soluções inovadoras em Java, MySQL,
+        HTML, CSS e Javascript, além de habilidades
+        em administração de bancos de dados e metodologias
+        ágeis como Scrum. Trago soft skills como comunicação eficaz,
+        trabalho em equipe e proatividade na resolução de problemas,
+        capacitando-me a enfrentar desafios complexos e promover ambientes de trabalho dinâmicos.
+        </p>
+        <p>Meu comprometimento e paixão pela área são evidentes,
+        buscando constantemente novas oportunidades para explorar e conectar-me com profissionais
+        que compartilham da mesma paixão pelo desenvolvimento
+        tecnológico.
+      </p>
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2 class="titulo">Skills</h2>
+    <div class="skills__icones">
+      <img src="img/devIcons/icons8-git-50.svg" alt="Git">
+      <img src="img/devIcons/icons8-github-50.svg" alt="Github">
+      <img src="img/devIcons/icons8-mysql-logo-50.svg" alt="MySQL">
+      <img src="img/devIcons/icons8-java-50.svg" alt="Java">
+      <img src="img/devIcons/icons8-html-5-50.svg" alt="HTML5">
+      <img src="img/devIcons/icons8-css3-50.svg" alt="CSS3">
+      <img src="img/devIcons/icons8-javascript-50.svg" alt="JavaScript">
+      <img src="img/devIcons/icons8-bootstrap-50.svg" alt="Bootstrap">
+    </div>
+  </section>
+
+  <section class="projetos">
+    <h2 class="projetos__titulo">Projetos</h2>
+
+    <a href="#">
+      <div class="card">
+        <div class="card__descricao">
+          <div class="descricao">
+            <h2 class="descricao__titulo">Projeto 01</h2>
+            <p class="descricao__texto">
+              Projeto realizado no curso de Desenvolvimento de Sistemas.
+            </p>
+          </div>
+          <img src="img/fotos/projeto1.jpg" class="descricao__imagem" alt="foto de um balde de pipoca">
+        </div>
+        <div class="card__botoes">
+          <ul class="botoes">
+            <li class="card__icones"><img src="img/devIcons/icons8-html-5-50.svg" alt="HTML5"></li>
+            <li class="card__icones"><img src="img/devIcons/icons8-javascript-50.svg" alt="JavaScript"></li>
+            <li class="card__icones"><img src="img/devIcons/icons8-bootstrap-50.svg" alt="Bootstrap5"></li>
+          </ul>
+          <!-- <a href="#" class="botoes__ancora">Saiba mais</a> -->
+        </div>
+      </div>
+    </a>
+
+    <a href="#">
+      <div class="card">
+        <div class="card__descricao">
+          <div class="descricao">
+            <h2 class="descricao__titulo">Projeto 02</h2>
+            <p class="descricao__texto">
+              Projeto realizado no curso Alura.
+            </p>
+          </div>
+          <img src="img/fotos/projeto2.jpg" class="descricao__imagem" alt="foto de um cartao de visitas">
+        </div>
+        <div class="card__botoes">
+          <ul class="botoes">
+            <li class="card__icones"><img src="img/devIcons/icons8-html-5-50.svg" alt="HTML5"></li>
+            <li class="card__icones"><img src="img/devIcons/icons8-css3-50.svg" alt="CSS3"></li>
+            <li class="card__icones"><img src="img/devIcons/icons8-javascript-50.svg" alt="JavaScript"></li>
+          </ul>
+        </div>
+      </div>
+    </a>
+
+
+    <a class="botoes__mais-projetos">Conheca outros projetos</a>
+  </section>
+
+
+
+  <hr />
+
+  <footer class="rodapé">
+    <div class="contato__descrição">
+      <h2 class="contato__titulo">Feito por Gustavo Kenzo Takeda</h2>
+      <p class="contato__texto">Email para contato: gkenzot@gmail.com</p>
+    </div>
+    <div class="contato__links">
+
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>
