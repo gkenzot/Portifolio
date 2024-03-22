@@ -1,0 +1,21 @@
+hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: var(--bg-2);
+    padding: 1em;
+    color: var(--txt-color-2)
+}
+
+
+.contato__titulo {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contato__texto {
+  font-weight: 300;
+  margin: 1em 0;
+}
+
