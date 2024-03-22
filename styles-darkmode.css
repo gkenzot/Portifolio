@@ -10,24 +10,14 @@
 
     --fonte-principal: "Poppins";
     --fonte-logo: "Rubik Mono One" , monospace;
-    --bg-1: #F6F6F6;
-    /* --bg-2: #44475A; */
+    --bg-1: #282A36;
     --bg-2:var(--txt-color-3);
-    --bg-3: #EBEBEB;
-    --txt-color: #07070D;
+    --bg-3: #44475A;
+    --txt-color: #F8F8F2;
     --txt-color-2: #F8F8F2;
     --txt-color-3: #1E56A0;
     --bg-1-dm: #282A36 ;
 
-    /* --cor1: #6272A4;
-    --cor2: #8BE9FD;
-    --cor3: #50FA7B;
-    --cor4: #FFB86C;
-    --cor5: #FF79C6;
-    --cor6: #BD93F9;
-    --cor7: #FF5555;
-    --cor8: #F1FA8C;
-    --cor9: #1E56A0; */
 }
 
 

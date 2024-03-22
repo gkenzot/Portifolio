@@ -16,31 +16,34 @@
 <body>
   <header class="cabeçalho">
     <div class="container">
-      <!-- <input type="checkbox" id="menu" class="container__botao">
+      <input type="checkbox" id="menu">
       <label for="menu" class="container__rotulo">
-        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+        <span class="cabecalho__menu"></span>
       </label>
       <ul class="lista-menu">
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Inicio</a>
+        <li>
+          <a href="index.html">Inicio</a>
         </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Sobre Mim</a>
+        <li>
+          <a href="#">Sobre Mim</a>
         </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Projetos</a>
+        <li>
+          <a href="pages/projetos.html">Projetos</a>
         </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Habilidades</a>
+        <!-- <li>
+          <a href="#">Habilidades</a>
         </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Certificados</a>
-        </li>
-      </ul> -->
+        <li>
+          <a href="#">Certificados</a>
+        </li> -->
+      </ul>
 
       <p alt="Logo Kenzo" class="logo">
         &lt;<span>kt</span>&gt;
       </p>
+
+      <button id="toggleButton">Alterar tema</button>
+
 
     </div>
   </header>
@@ -87,14 +90,14 @@
 
   <section class="skills">
     <h2 class="titulo">Skills</h2>
-    <div class="skills__icones">
-      <div>
+    <div class="skills__container">
+      <div class="skills__row">
         <img src="img/devIcons/icons8-git-50.svg" alt="Git">
         <img src="img/devIcons/icons8-github-50.svg" alt="Github">
         <img src="img/devIcons/icons8-mysql-logo-50.svg" alt="MySQL">
         <img src="img/devIcons/icons8-java-50.svg" alt="Java">
       </div>
-      <div>
+      <div class="skills__row">
         <img src="img/devIcons/icons8-html-5-50.svg" alt="HTML5">
         <img src="img/devIcons/icons8-css3-50.svg" alt="CSS3">
         <img src="img/devIcons/icons8-javascript-50.svg" alt="JavaScript">
@@ -105,68 +108,78 @@
 
   <section class="projetos">
     <h2 class="titulo">Projetos</h2>
-
     <div class="cards">
-    <a href="#">
-      <div class="card">
-        <div class="card__descricao">
-          <div class="descricao">
-            <h2 class="descricao__titulo">Filme Oscar</h2>
-            <p class="descricao__texto">
-              Plataforma de Cinema: Cadastre, comente e avalie filmes.
-              Explore e interaja com uma comunidade dedicada ao cinema.
-            </p>
+      <a href="#">
+        <div class="card">
+
+          <div class="card__descricao">
+            <div class="descricao">
+              <h2>Filme Oscar</h2>
+              <p>
+                Plataforma de Cinema: Cadastre, comente e avalie filmes.
+                Explore e interaja com uma comunidade dedicada ao cinema.
+              </p>
+            </div>
+            <img src="img/fotos/projeto1.jpg" alt="Imagem do projeto Filme Oscar">
           </div>
-          <img src="img/fotos/projeto1.jpg" class="descricao__imagem" alt="foto de um balde de pipoca">
-        </div>
-        <div class="card__botoes">
-          <ul class="botoes">
-            <li class="card__icones"><img src="img/devIcons/icons8-html-5-50.svg" alt="HTML5"></li>
-            <li class="card__icones"><img src="img/devIcons/icons8-javascript-50.svg" alt="JavaScript"></li>
-            <li class="card__icones"><img src="img/devIcons/icons8-bootstrap-50.svg" alt="Bootstrap5"></li>
-            <li class="card__icones"><img src="img/devIcons/icons8-java-50.svg" alt="Java"></li>
-            <li class="card__icones"><img src="img/devIcons/icons8-mysql-logo-50.svg" alt="MySQL"></li>
-          </ul>
-          <!-- <a href="#" class="botoes__ancora">Saiba mais</a> -->
-        </div>
-      </div>
-    </a>
 
-    <a href="#">
-      <div class="card">
-        <div class="card__descricao">
-          <div class="descricao">
-            <h2 class="descricao__titulo">Meu Portfólio</h2>
-            <p class="descricao__texto">
-              Trabalho realizado 100% do zero com o objetivo de
-              expor os diferentes projetos que já realizei.
-            </p>
+          <div class="card__icones">
+            <ul>
+              <li><img src="img/devIcons/icons8-html-5-50.svg" alt="HTML5"></li>
+              <li><img src="img/devIcons/icons8-javascript-50.svg" alt="JavaScript"></li>
+              <li><img src="img/devIcons/icons8-bootstrap-50.svg" alt="Bootstrap5"></li>
+              <li><img src="img/devIcons/icons8-java-50.svg" alt="Java"></li>
+              <li><img src="img/devIcons/icons8-mysql-logo-50.svg" alt="MySQL"></li>
+            </ul>
           </div>
-          <img src="img/fotos/projeto2.jpg" class="descricao__imagem" alt="foto de um cartao de visitas">
         </div>
-        <div class="card__botoes">
-          <ul class="botoes">
-            <li class="card__icones"><img src="img/devIcons/icons8-html-5-50.svg" alt="HTML5"></li>
-            <li class="card__icones"><img src="img/devIcons/icons8-css3-50.svg" alt="CSS3"></li>
-            <li class="card__icones"><img src="img/devIcons/icons8-javascript-50.svg" alt="JavaScript"></li>
-          </ul>
+      </a>
+      <a href="#">
+        <div class="card">
+          <div class="card__descricao">
+            <div class="descricao">
+              <h2>Meu Portfólio</h2>
+              <p>
+                Trabalho realizado 100% do zero com o objetivo de
+                expor os diferentes projetos que já realizei.
+              </p>
+            </div>
+            <img src="img/fotos/projeto2.jpg" alt="foto de um cartao de visitas">
+          </div>
+          <div class="card__icones">
+            <ul>
+              <li><img src="img/devIcons/icons8-html-5-50.svg" alt="HTML5"></li>
+              <li><img src="img/devIcons/icons8-css3-50.svg" alt="CSS3"></li>
+              <li><img src="img/devIcons/icons8-javascript-50.svg" alt="JavaScript"></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </a>
-  </div>
-
-  <a href="#" class="botoes__mais-projetos">Conheca outros projetos</a>
-
+      </a>
+    </div>
+    <a href="#" class="botoes__mais-projetos">Conheça outros projetos</a>
   </section>
 
-  
-  <footer class="rodapé">
-    <div class="contato__descrição">
-      <h2 class="contato__titulo">Feito por Gustavo Kenzo Takeda</h2>
-      <p class="contato__texto">Email para contato: gkenzot@gmail.com</p>
-    </div>
+  <footer>
+    <h2>Feito por Gustavo Kenzo Takeda</h2>
+    <p>E-mail para contato: gkenzot@gmail.com</p>
   </footer>
 
+
+  <script>
+    const toggleButton = document.getElementById('toggleButton');
+    const linkElement = document.querySelector('link[href="styles.css"]');
+    let darkModeEnabled = linkElement.href.includes('styles-darkmode.css');
+
+    toggleButton.addEventListener('click', function () {
+      if (!darkModeEnabled) {
+        linkElement.href = 'styles-darkmode.css';
+      } else {
+        linkElement.href = 'styles.css';
+      }
+
+      darkModeEnabled = !darkModeEnabled;
+    });
+  </script>
 </body>
 
 </html>

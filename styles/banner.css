@@ -21,7 +21,6 @@
 .banner img {
   max-width: 100%;
   display: block;
-  /* margin: 0 auto; */
 }
 
 @media screen and (min-width: 576px) {
@@ -35,13 +34,20 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+  .banner__text {
+    font-size: 1.3em;
+  }
+
   .banner img {
     max-width: 40%;
   }
 }
 
 @media screen and (min-width: 992px) {
+  .banner__text {
+    font-size: 1.5em;
+  }
+
   .banner img {
     max-width: 35%;
   }
