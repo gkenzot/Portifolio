@@ -14,7 +14,7 @@ header {
 .cabecalho__menu {
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url("../img/Menu.svg");
+  background-image: url("../../img/Menu.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
@@ -25,11 +25,11 @@ header {
 }
 
 .container input:checked~.container__rotulo>.cabecalho__menu {
-  background-image: url("../img/Menu Aberto.svg");
+  background-image: url("../../img/Menu Aberto.svg");
 }
 
 .container input:checked~.container__rotulo {
-  background: var(--txt-color-3);
+  background: var(--bg-2);
 }
 
 .container label span {
@@ -56,7 +56,22 @@ header {
   text-transform: uppercase;
 }
 
+#lista-menu__selected {
+  background-color: var(--bg-3);
+  pointer-events: none;
+  font-weight: 600;
+}
+
 .container input {
   display: none;
 }
 
+#toggleButton {
+  margin: 1em;
+  background-color: var(--bg-2);
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  border: none;
+  color: var(--txt-color-2);
+  font: normal normal 400 0.7rem var(--fonte-principal);
+}
