@@ -4,7 +4,6 @@ function loadHeader() {
     .then(response => response.text())
     .then(text => {
       document.getElementById('header-placeholder').innerHTML = text;
-      bindDarkModeButton(); // Chamar o darkmode.js
     });
 }
 
