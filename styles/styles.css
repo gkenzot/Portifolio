@@ -5,6 +5,7 @@
 @import url("fragments/footer.css");
 @import url("fragments/logo.css");
 @import url("fragments/links.css");
+@import url("fragments/body.css");
 
 :root {
 
@@ -12,30 +13,10 @@
   --fonte-logo: "Rubik Mono One", monospace;
   --bg-1: #F6F6F6;
   --bg-2: #1E56A0;
+  --bg-2-grad: linear-gradient(135deg, #194784, #4573B1);
   --bg-3: #EBEBEB;
   --txt-color: #07070D;
   --txt-color-2: #F8F8F2;
   --bg-1-dm: #282A36;
 
-}
-
-
-body {
-  background-color: var(--bg-1);
-  font: normal normal 400 1rem var(--fonte-principal);
-}
-
-.titulo {
-  color: var(--txt-color-2);
-  background-color: var(--bg-2);
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.2em;
-  font-weight: 700;
-  padding: 0.5em;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }

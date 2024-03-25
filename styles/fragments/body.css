@@ -1,0 +1,19 @@
+body {
+  background-color: var(--bg-1);
+  font: normal normal 400 1rem var(--fonte-principal);
+}
+
+.titulo {
+  color: var(--txt-color-2);
+  background: var(--bg-2-grad);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
